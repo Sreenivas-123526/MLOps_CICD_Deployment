@@ -57,7 +57,7 @@ jobs:
       # Build Docker Image
       - name: Build Docker Image
         run: |
-          docker build -t 91827198/ml-model:latest
+          docker build -t 91827198/ml-model:latest .
 
       # Push Docker Image
       - name: Push Docker Image
