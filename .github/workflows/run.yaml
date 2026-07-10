@@ -61,5 +61,5 @@ jobs:
 
       # Push Docker Image
       - name: Push Docker Image
-      run: |
-       docker push 91827198/ml-model:latest
+        run: |
+          docker push 91827198/ml-model:latest
